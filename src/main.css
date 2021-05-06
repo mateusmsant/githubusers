@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #0d1833;
+  color: #ced3d6;
+}
+
+.all-center {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #7c8ca6;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+a:hover {
+  color: #e9eaec;
+}
+
+button {
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  color: #7c8ca6;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #e9eaec;
+}
+
+.github {
+  color: #e9eaec;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 90vw;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin: auto;
+  margin-top: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.round-img {
+  width: 90px;
+}
+
+.user-img {
+  width: 160px;
+  margin-bottom: 10px;
+}
+
+.center {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.card {
+  padding: 0.55rem;
+  margin: 0.5rem 0;
+}
+
+.clear {
+  color: #ced3d6;
+}
+
+.badge {
+  background: #15274b;
+  color: #ced3d6;
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 0.2rem 0.7rem;
+  margin: 0.2rem;
+  box-shadow: 0 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.user-overview {
+  align-self: center;
+  text-align: center;
+}
+
+.user-details {
+  text-align: right;
+}
+
+.users {
+  text-align: center;
+  grid-gap: 30px;
+  padding: 40px 0;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h1 {
+  white-space: nowrap;
+}
+
+.resetMarginPadding {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 95vw;
+  }
+
+  .user-info {
+    flex-direction: column;
+  }
+
+  .user-container {
+    max-height: 2000vh;
+  }
+
+  .breakdown {
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.me {
+  margin-bottom: 20px;
+  text-align: center;
+}
